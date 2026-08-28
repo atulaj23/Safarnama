@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice">
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#0b1420"/><stop offset=".42" stop-color="#263d4a"/><stop offset=".72" stop-color="#e58b4a"/><stop offset="1" stop-color="#11140f"/></linearGradient>
+  <linearGradient id="mount" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#506f72"/><stop offset="1" stop-color="#111b1a"/></linearGradient>
+  <linearGradient id="forest" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#244d3b"/><stop offset="1" stop-color="#07120e"/></linearGradient>
+  <linearGradient id="rail" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#333a3b"/><stop offset=".5" stop-color="#a16f46"/><stop offset="1" stop-color="#22282a"/></linearGradient>
+  <filter id="blur"><feGaussianBlur stdDeviation="18"/></filter>
+</defs>
+<rect width="1600" height="900" fill="url(#sky)"/>
+<circle cx="1230" cy="285" r="120" fill="#ffc77a" opacity=".22" filter="url(#blur)"/>
+<circle cx="1230" cy="285" r="55" fill="#ffd59a" opacity=".5"/>
+<!-- clouds -->
+<g fill="#fff" opacity=".11" filter="url(#blur)">
+ <ellipse cx="290" cy="210" rx="190" ry="45"/><ellipse cx="510" cy="175" rx="170" ry="38"/>
+ <ellipse cx="1060" cy="145" rx="220" ry="48"/>
+</g>
+<!-- distant mountains -->
+<path d="M0 480 L190 290 310 400 470 220 670 430 850 250 1040 445 1230 205 1450 420 1600 285 1600 620 0 620Z" fill="url(#mount)" opacity=".92"/>
+<path d="M0 540 L180 390 330 505 500 345 700 520 900 350 1080 530 1270 350 1480 515 1600 405 1600 690 0 690Z" fill="#182b29"/>
+<!-- valley -->
+<path d="M0 560 Q330 500 690 610 T1600 560 L1600 900 0 900Z" fill="#10221a"/>
+<!-- forest layers -->
+<path d="M0 610 Q200 560 390 650 T780 625 T1180 640 T1600 600 L1600 900 0 900Z" fill="url(#forest)"/>
+<g fill="#0a1712" opacity=".95">
+ <path d="M60 700 l38-95 38 95z M145 730 l48-120 48 120z M250 690 l42-105 42 105z M360 735 l50-135 50 135z M490 700 l45-118 45 118z M620 740 l55-145 55 145z M760 700 l45-120 45 120z M900 735 l55-145 55 145z M1040 695 l42-110 42 110z M1180 730 l50-135 50 135z M1330 700 l46-120 46 120z M1460 740 l58-150 58 150z"/>
+</g>
+<!-- winding valley path -->
+<path d="M760 900 C720 790 840 760 910 700 C980 640 930 600 1020 560" fill="none" stroke="#d0a36a" stroke-width="70" opacity=".18"/>
+<!-- railway -->
+<path d="M-50 805 C430 760 760 720 1650 690" fill="none" stroke="#171b1b" stroke-width="18"/>
+<path d="M-50 785 C430 740 760 700 1650 670" fill="none" stroke="#6d7271" stroke-width="4"/>
+<path d="M-50 825 C430 780 760 740 1650 710" fill="none" stroke="#6d7271" stroke-width="4"/>
+<g stroke="#4e514e" stroke-width="5" opacity=".7">
+ <path d="M70 770 l10 50 M160 762 l10 50 M250 754 l10 50 M340 747 l10 50 M430 740 l10 50 M520 732 l10 50 M610 726 l10 50 M700 718 l10 50 M790 712 l10 50 M880 704 l10 50 M970 698 l10 50 M1060 690 l10 50 M1150 683 l10 50 M1240 676 l10 50 M1330 670 l10 50 M1420 663 l10 50 M1510 657 l10 50"/>
+</g>
+<!-- foreground grass -->
+<path d="M0 820 Q280 760 550 825 T1100 810 T1600 790 L1600 900 0 900Z" fill="#050b08"/>
+<rect width="1600" height="900" fill="url(#sky)" opacity=".08"/>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" preserveAspectRatio="xMidYMid slice">
+<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#284b59"/><stop offset=".55" stop-color="#efb06b"/><stop offset="1" stop-color="#12212a"/></linearGradient></defs>
+<rect width="800" height="1000" fill="url(#g)"/>
+<circle cx="600" cy="230" r="115" fill="#fff1c7" opacity=".28"/>
+<path d="M0 560 L160 390 280 520 430 330 620 530 800 380 800 1000 0 1000Z" fill="#12212a" opacity=".72"/>
+<path d="M0 690 Q180 620 390 700 T800 650 L800 1000 0 1000Z" fill="#09100e" opacity=".82"/>
+<g fill="#050907"><path d="M70 760 l55-150 55 150z"/><path d="M190 800 l65-180 65 180z"/><path d="M570 790 l65-175 65 175z"/><path d="M690 750 l55-150 55 150z"/></g>
+<path d="M400 1000 C350 860 470 810 510 720 C540 655 500 610 565 560" fill="none" stroke="#efb06b" stroke-width="48" opacity=".65"/>
+<text x="55" y="850" fill="white" font-family="Arial,sans-serif" font-size="62" font-weight="700" letter-spacing="3">UDAIPUR</text>
+<text x="58" y="900" fill="white" opacity=".82" font-family="Arial,sans-serif" font-size="25" letter-spacing="2">Lake city</text>
+</svg>
