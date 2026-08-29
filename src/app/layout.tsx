@@ -6,7 +6,9 @@ import { Footer } from "@/components/Footer";
 import { AIChat } from "@/components/AIChat";
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"),
+  metadataBase: new URL(
+  process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000"
+),
   title: "Safarnama — AI Travel Planner for Students",
   description:
     "Plan personalized, budget-friendly trips with Safarnama's AI travel planner. Student-focused, AI-powered.",
